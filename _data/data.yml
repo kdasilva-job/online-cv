@@ -13,6 +13,7 @@ sidebar:
 
     # Sidebar links
     email: dasilvakevin6(at)gmail(dot)com
+    city: Saint-Amé
     phone: 
     website:  #do not add http://
     linkedin: kevin-da-silva-022463a7
@@ -27,9 +28,11 @@ sidebar:
     languages:
       - idiom: French
         level: Native
+        image: french.jpg
 
       - idiom: English
         level: Professional
+        image: english.jpg
 
     interests:
       - item: Guitar and Bass guitar (self learner)
@@ -89,8 +92,9 @@ education:
           - Bullet point
 experiences:
     - role: C++ software engineer
-      time: July 2014 - Present
-      company: Clearstream (Deutsche Börse Group), Luxembourg
+      time: Jul 2014 - Present
+      company: Clearstream (Deutsche Börse Group) 
+      city : Luxembourg
       details: |
         Application Lifecycle Management, as part of an international team dedicated to design, develop, extend, and support large applications to provide world class financial asset services:
           - Application implementation (C++11, Oracle PL/SQL, perl, shell script, groovy, RedHat Enterprise Linux)
@@ -99,23 +103,27 @@ experiences:
           - Handle support of applications to provide world class financial asset services for services provided to business teams (JIRA)
           - Analysing and supporting production softwares issues
     - role: Junior C++ software engineer
-      time: October 2013 - July 2014
-      company: Clearstream (Deutsche Börse Group), Luxembourg
+      time: Oct 2013 - Jul 2014
+      company: Clearstream (Deutsche Börse Group)
+      city : Luxembourg
       details: |
         Development and tests support for applications of the reporting platform ReportServer
     - role: Trainee Java developer
-      time: April 2013 - October 2013
-      company: Logos IT Services, Luxembourg
+      time: Apr 2013 - Oct 2013
+      company: Logos IT Services
+      city : Luxembourg
       details: |
         Implementation of an ERP including employee management and company financial analysis tools
     - role: C# developer
-      time: August 2012 - December 2012
-      company: Mitron Oy, Riihimäki (Finland)
+      time: Aug 2012 - Dec 2012
+      company: Mitron Oy 
+      city : Riihimäki (Finland)
       details: |
         Research and development of an autarchic display system for Finnish Railway stations
     - role: Trainee C# developer
-      time: May 2012 - July 2012
-      company: T.E.A. Technologie, Ergonomie et Applications, Vandoeuvre-lès-Nancy (France)
+      time: May 2012 - Jul 2012
+      company: T.E.A. Technologie, Ergonomie et Applications
+      city: Vandoeuvre-lès-Nancy (France)
       details: |
         Integration of a signal processing module(Filters, FFT, ECG, EEG) in the software CAPTIV-L7000.
 

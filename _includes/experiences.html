@@ -19,7 +19,12 @@
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+      <div class="company">
+        {{ experience.company }}
+        {% if experience.city %}
+          <span><i class="fas fa-map-pin"></i>&nbsp;{{ experience.city }}</span>
+        {% endif %}
+    </div>
 
     </div><!--//meta-->
 
