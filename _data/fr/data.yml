@@ -1,0 +1,185 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+language: Français
+also_available: Disponible en 
+title: Mon CV # Site title
+description: Mon CV # Site description
+
+sidebar:
+    tagline: Ingénieur logiciel C++
+
+    languagesTitle: Langues
+    languages:
+      - idiom: Français
+        level: Langue maternelle
+        image: french.jpg
+
+      - idiom: Anglais
+        level: Courant
+        image: english.jpg
+
+    interestsTitle: Loisirs
+    interests:
+      - item: Guitare et Basse (autodidacte)
+        link:
+
+      - item: Photographie
+        link:
+
+      - item: Fitness
+        link:
+
+      - item: Bénévole dans le club "Flèche d'Or Luxembourg"
+        link:
+
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
+#       Second paragraph if required.
+education:
+    - degree: Chef de projet en Informatique et Robotique
+      university: Institut Méditerranéen d'Étude et de Recherche en Informatique et Robotique
+      time: 2010 - 2013
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Département Informatique
+      university: Université des sciences appliquée HAMK
+      time: 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Licence L3 Mathématiques et Informatique
+      university: Université de Perpignan Via Domitia
+      time: 2010 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: Ingénieur logiciel C++
+      time: Jul 2014 - Present
+      company: Clearstream (Groupe Deutsche Börse AG)
+      city : Luxembourg
+      details: |
+        Gestion du cycle de vie d'une application, au sein d'une équipe internationale dédiée à la conception, au développement, à l'amélioration et au support d'applications volumineuses afin de fournir des services financiers de classe mondiale :
+          - Implémentation d'applications (C++11, Oracle PL/SQL, perl, shell script, groovy, RedHat Enterprise Linux)
+          - Mise en place d'un framework de tests interne (tests unitaires, d'intégration et de régression)
+          - Conception et mise en oeuvre de pipelines d'intégrations et de livraisons continue (pipelines déclaratifs Jenkins, Docker)
+          - Création d'applications pour fournir des outils de classe mondiale aux équipes commerciales
+          - Analyse et support des problèmes liés aux logiciels de production (Jira)
+    - role: Ingénieur logiciel junior C++
+      time: Oct 2013 - Jul 2014
+      company: Clearstream (Groupe Deutsche Börse AG)
+      city : Luxembourg
+      details: |
+        Development and tests support for applications of the reporting platform ReportServer
+    - role: Stagiaire développeur Java
+      time: Apr 2013 - Oct 2013
+      company: Logos IT Services
+      city : Luxembourg
+      details: |
+        Développement et support des applications de la plate-forme de reporting ReportServer
+    - role: Développeur C#
+      time: Aug 2012 - Dec 2012
+      company: Mitron Oy 
+      city : Riihimäki (Finland)
+      details: |
+        Recherche et développement d'un système d'affichage autarcique pour les gares finlandaises
+    - role: Stagiaire développeur C# 
+      time: May 2012 - Jul 2012
+      company: T.E.A. Technologie, Ergonomie et Applications
+      city: Vandoeuvre-lès-Nancy (France)
+      details: |
+        Intégration d'un module de traitements de signaux (Filtres, FFT, ECG, EEG) dans le logiciel CAPTIV-L7000.
+
+# projects:
+#     title: Technical Realisations
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Compétences techniques
+
+    toolset:
+      - name: C++11
+        level: 90%
+
+      - name: Git, SVN, Clearcase
+        level: 85%
+
+      - name: Oracle PL/SQL
+        level: 70%
+
+      - name: Github, Jenkins, Phabricator
+        level: 70%
+
+      - name: Méthode agile (SCRUM), Cycle en V
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

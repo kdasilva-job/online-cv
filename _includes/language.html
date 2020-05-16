@@ -1,9 +1,10 @@
-{% assign languages = site.data.data.sidebar.languages %}
+{% assign languages = site.data.[page.lang].data.sidebar.languages %}
+{% assign languagesTitle = site.data.[page.lang].data.sidebar.languagesTitle %}
 {% if languages %}
 <div class="languages-container container-block">
 
   <h2 class="container-block-title">
-    Languages
+    {{ languagesTitle }}
   </h2>
 
   <ul class="list-unstyled interests-list">

@@ -1,4 +1,5 @@
-{% assign sidebar = site.data.data.sidebar %}
+{% assign sidebar = site.data.common.sidebar %}
+{% assign sidebarTagLine = site.data.[page.lang].data.sidebar %}
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
@@ -12,7 +13,7 @@
     {% endif %}
 
     {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    <h3 class="tagline">{{ sidebarTagLine.tagline }}</h3>
     {% endif %}
 
   </div><!--//profile-container-->
