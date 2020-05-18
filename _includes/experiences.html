@@ -20,9 +20,21 @@
       </div><!--//upper-row-->
 
       <div class="company">
-        {{ experience.company }}
+        {% if experience.link %}
+          <a class="dont-print" href="{{ experience.link }}" target="_blank">
+            {{ experience.company }}
+          </a>
+        {% else %}
+          {{ experience.company }}
+        {% endif %}
         {% if experience.city %}
-          <span><i class="fas fa-map-pin"></i>&nbsp;{{ experience.city }}</span>
+          <span>
+            <i class="fas fa-map-pin"></i>&nbsp;
+            <a class="dont-print" href="https://www.google.com/maps/place/{{ experience.city }}" target="_blank">
+              {{ experience.city }}
+            </a>
+          </span>
+          
         {% endif %}
     </div>
 

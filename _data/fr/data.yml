@@ -31,7 +31,7 @@ sidebar:
         link:
 
       - item: Bénévole dans le club "Flèche d'Or Luxembourg"
-        link:
+        link: https://www.flechedor.lu/fr/
 
 # career-profile:
 #     title: Career Profile
@@ -78,9 +78,10 @@ education:
           - Bullet point
 experiences:
     - role: Ingénieur logiciel C++
-      time: Jul 2014 - Present
+      time: Juillet 2014 - Aujourd'hui
       company: Clearstream (Groupe Deutsche Börse AG)
       city : Luxembourg
+      link: https://www.clearstream.com/clearstream-en/
       details: |
         Gestion du cycle de vie d'une application, au sein d'une équipe internationale dédiée à la conception, au développement, à l'amélioration et au support d'applications volumineuses afin de fournir des services financiers de classe mondiale :
           - Implémentation d'applications (C++11, Oracle PL/SQL, perl, shell script, groovy, RedHat Enterprise Linux)
@@ -89,29 +90,33 @@ experiences:
           - Création d'applications pour fournir des outils de classe mondiale aux équipes commerciales
           - Analyse et support des problèmes liés aux logiciels de production (Jira)
     - role: Ingénieur logiciel junior C++
-      time: Oct 2013 - Jul 2014
+      time: Octobre 2013 - Juillet 2014
       company: Clearstream (Groupe Deutsche Börse AG)
       city : Luxembourg
+      link: https://www.clearstream.com/clearstream-en/
       details: |
         Development and tests support for applications of the reporting platform ReportServer
     - role: Stagiaire développeur Java
-      time: Apr 2013 - Oct 2013
+      time: Avril 2013 - Octobre 2013
       company: Logos IT Services
       city : Luxembourg
+      link: https://www.logos-its.com/
       details: |
-        Développement et support des applications de la plate-forme de reporting ReportServer
+        Implémentation d'un ERP incluant des outils de gestion des employés et d'analyse financière de l'entreprise
     - role: Développeur C#
-      time: Aug 2012 - Dec 2012
+      time: Août 2012 - Decembre 2012
       company: Mitron Oy 
       city : Riihimäki (Finland)
+      link: https://www.railway-technology.com/contractors/operation/mitron/
       details: |
         Recherche et développement d'un système d'affichage autarcique pour les gares finlandaises
     - role: Stagiaire développeur C# 
-      time: May 2012 - Jul 2012
+      time: Mai 2012 - Juillet 2012
       company: T.E.A. Technologie, Ergonomie et Applications
       city: Vandoeuvre-lès-Nancy (France)
+      link: http://teaergo.com/wp/
       details: |
-        Intégration d'un module de traitements de signaux (Filtres, FFT, ECG, EEG) dans le logiciel CAPTIV-L7000.
+        Intégration d'un module de traitements de signaux (Filtres, FFT, ECG, EEG) dans le logiciel CAPTIV-L7000
 
 # projects:
 #     title: Technical Realisations
