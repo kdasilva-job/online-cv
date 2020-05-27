@@ -27,3 +27,22 @@ sidebar:
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
+slideshow:
+  - image: 01.jpg
+    title: Doors in the garden
+
+  - image: 02.jpg
+    title: Black cat
+  
+  - image: 03.jpg
+    title: Building noir
+
+  - image: 04.jpg
+    title: La Grande Roue de Montréal
+
+  - image: 05.jpg
+    title: Frozen boat (Montreal)
+
+  - image: 06.jpg
+    title: Railay Beach (Krabi)

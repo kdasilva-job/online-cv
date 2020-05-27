@@ -24,14 +24,13 @@ sidebar:
       - item: Guitare et Basse (autodidacte)
         link:
 
-      - item: Photographie
-        link:
-
       - item: Fitness
         link:
 
       - item: Bénévole dans le club "Flèche d'Or Luxembourg"
         link: https://www.flechedor.lu/fr/
+
+    interestPhotography: Photographie
 
 # career-profile:
 #     title: Career Profile

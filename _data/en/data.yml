@@ -22,16 +22,16 @@ sidebar:
     interestsTitle: Interests
     interests:
       - item: Guitar and Bass guitar (self learner)
-        link:
-
-      - item: Photography
-        link:
+        link: 
 
       - item: Fitness
         link:
 
       - item: Volunteering in an Archery club
         link: https://www.flechedor.lu/en/
+
+    interestPhotography: Photography
+
 
 # career-profile:
 #     title: Career Profile
