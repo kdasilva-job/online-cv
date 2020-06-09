@@ -1,5 +1,8 @@
 {% assign interests = site.data.[page.lang].data.sidebar.interests %}
 {% assign interestsTitle = site.data.[page.lang].data.sidebar.interestsTitle %}
+{% assign interestPhotography = site.data.[page.lang].data.sidebar.interestPhotography %}
+{% assign slideshow = site.data.common.slideshow %}
+
 {% if interests %}
 <div class="interests-container container-block">
 
@@ -8,15 +11,30 @@
   </h2>
 
   <ul class="list-unstyled interests-list">
+
+    {% if interestPhotography %}
+      <li>
+        <p class="slideshow">  
+          {% for pix in slideshow %}
+            {% if forloop.first %}
+              <a href="{{ site.baseurl }}/uploads/album/{{ pix.image }}" title="{{ interestPhotography }}">{{ interestPhotography }}</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/uploads/album/{{ pix.image }}"></a>
+            {% endif %}
+          {% endfor %}
+        </p>
+      </li>
+    {% endif %}
+    
     {% for interest in interests %}
 
       {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+        <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
       {% else %}
-      <li>{{ interest.item }}</li>
+        <li>{{ interest.item }}</li>
       {% endif %}
 
-    {% endfor %}
+    {% endfor %}   
   </ul>
 
 </div><!--//interests-->

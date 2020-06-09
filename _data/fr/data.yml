@@ -24,14 +24,13 @@ sidebar:
       - item: Guitare et Basse (autodidacte)
         link:
 
-      - item: Photographie
-        link:
-
       - item: Fitness
         link:
 
       - item: Bénévole dans le club "Flèche d'Or Luxembourg"
         link: https://www.flechedor.lu/fr/
+
+    interestPhotography: Photographie
 
 # career-profile:
 #     title: Career Profile
@@ -118,54 +117,143 @@ experiences:
       details: |
         Intégration d'un module de traitements de signaux (Filtres, FFT, ECG, EEG) dans le logiciel CAPTIV-L7000
 
-# projects:
-#     title: Technical Realisations
-#     intro: >
-#       You can list your side projects or open source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+projects:
+    title: Réalisations techniques
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      
+    - title: "CSDR Settlement Fail Penalties Framework"
+      time: 2020
+      #link: ""
+      #tagline: C++, PL/SQL, XML
+      details: |
+        Implémentation et harmonisation des règles de l'UE pour les mécanismes de pénalités de règlement.
+        - Refonte du Reference Data Provider (RDP) en architecture microservice dans la cadre de la migration vers le Cloud
+        - Integration du framework gRPC dans le RDP
+        - Adaptation du RDP pour executer les appels gRPC dans plusieurs threads
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: "TAX Investments"
+      time: 2019
+      #link: ""
+      #tagline: C++, PL/SQL, XML
+      details: |
+        Réalisation d'une solution pour traiter les messages MT564 / MT566 envoyés par Clearstream Banking Frankfurt, suite à la réforme de la taxe allemande sur l'investissement.
 
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: "REDEX"
+      time: 2018
+      #link: ""
+      #tagline: C++
+      details: |
+        Application développée avec le framework d'extraction interne OXI. Elle reçoit et traite les publications envoyées par le système de référence de données de Clearstream.
+        - Amélioration et optimisation du stockage en mémoire cache de l'application REDEX
+        - Migration du code source du standard C++98 vers C++11
 
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: "Custody Booking - Unsecured Credit over the Bridge"
+      time: 2018
+      #link: ""
+      #tagline: ++, PL/SQL, XML
+      details: |
+        Avec l'adoption de nouvelles réglementations liées aux opérations sur des titres dans l'Union Européenne, le projet "Unsecured Credit over the Bridge” a permis d'améliorer la communication entre deux dépositaires centraux de titres.
+        - Changement du système de paiements Custody afin de se conformer aux nouvelles règles de réglementations
+        - Implémentation d'un processus de réconciliation pour les paiements Custody
 
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-# publications:
-#     title: Publications
-#     intro: |
-#       You can list your publications in this section. Lorem ipsum dolor sit
-#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#       bibendum fringilla a eu lectus.
-#     papers:
-#       - title: The Art of Computer Programming
-#         link: "#"
-#         authors: Donald E. Knuth
-#         conference: Addison-Wesley, 1968
+    - title: "CodeList"
+      time: 2018
+      #link: ""
+      #tagline:
+      details: |
+        Conception d'une preuve de concept pour la migration du site Web <a href="https://codelist.clearstream.com/codelist/index.jsp" target="_blank" rel="nofollow">CodeList</a> à l'aide du framework Echo.
 
-#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         link: "#"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-#       - title: A syntax directed compiler for Algol 60
-#         link: "#"
-#         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51–55"
+    - title: "Chaîne d'outils Devops pour les applications Custody"
+      time: 2017
+      #link: ""
+      #tagline: C++, PL/SQL, shell script, Groovy
+      details: |
+        Contribution à la migration des outils Devops des applications Custody en prenant le leadership des tests automatiques, en particulier pour fournir des outils efficaces au développement afin de migrer de l'ancienne architecture vers la nouvelle.
+        - Réalisation d'une solution pour les tests d'applications (tests unitaires, d'intégration et de régression)
+        - Conception et programmation des pipelines de tests de régression et de livraison continue à l'aide de Jenkins
+
+
+    - title: "AURORA"
+      time: 2016
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        Le reporting AURORA de Custody fournit des informations quotidiennes sur les mouvements de titres et de trésorerie de Clearstrean Banking Frankfurt. Il est envoyé à la Deutsche Bundesbank à des fins de régulation.
+        - Extraction des informations pertinentes (opérations sur titres, instructions financières) à partir du modèle de données Custody
+        - Génération du rapport AURORA en suivant un formatage prédéfini strict
+
+    # - title: "Mod jeu vidéo"
+    #   time: 2016
+    #   #link: ""
+    #   #tagline: ++, Unreal script
+    #   details: |
+    #     Modification des événements en jeu (faible niveau de santé, soins, tir au pistolet) pour réagir de manière dynamique avec des appareils rétroéclairés. 
+
+
+    - title: "OneSecLend - Fails Lending Principal"
+      time: 2015
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        Le projet visait à fournir des produits et des services axés sur les défaillances de paiements. 
+        La solution garantit que toutes les positions et instructions sont systématiquement transmisent au logiciel tiers "4Sight Financial Software".
+        - Mise à jour du moteur "Position Manager Booking" afin de maintenir les positions en temps réel et d'assurer la cohérence entre les positions et les instructions
+        - Programmation d'une solution de proofing pour garantir la cohérence des positions entre les systèmes
+
+    - title: "Malmo"
+      time: 2014
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        Projet technique consistant à supprimer les dépendances entre les applications RS et 
+        RealTime Settlement (RTS). 
+        - Modification de la bibliothèque de gestion des instruments financiers pour supprimer les dépendances avec le système RTS
+        - Refactorisation du modèle de données pour prendre en charge la nouvelle structure  de données de référence (REDEX)
+
+    - title: "Projet de fin d'études"
+      time: 2013
+      #link: ""
+      #tagline: C++
+      details: |
+        Recherche et développement d'une solution de reconnaissance du corps humain en temps réel, à l'aide de la bibliothèque de traitement d'images OpenCV.
+
+    - title: "Projet étudiant"
+      time: 2012
+      #link: ""
+      #tagline: C++
+      details: |
+        Implémentation d'un logiciel de supervision d'un robot Lego Mindstorm utilisant le framework Qt et le protocole HTTPS pour des communications sécurisées.
+
+    - title: "Coupe de France de Robotique \"Eurobot 2012\""
+      time: 2012
+      #link: ""
+      #tagline: Chef de projet logiciel et développeur C++
+      details: |
+        Dans le cadre d'une équipe de 6 personnes, un robot autonome a été construit à partir de zéro. Pour concourir dans le championnat, plusieurs technologies ont été conçues dans les domaines de l’électronique, de la mécanique et des logiciels.
+        - Développement d'un système de vision pour localiser et estimer la position du robot adverse à l'aide d'une balise éclairée et de la bibliothèque OpenCV
+        - Optimisation du code et du système de vision pour la carte embarquée FOX Board G20
+
+    # - title: "Projet étudiant"
+    # time: 
+    # #link: ""
+    # #tagline: PHP, jQuery
+    # details: |
+    #  Implémentation d'une application mobile et web pour la gestion de restaurants.
+
+    # time: 2011
+    # - title: "Simulation de gestion d'une flotte d'hélicoptères"
+    # #link: ""
+    # #tagline: 
+    # details: |
+    # C, Java
+    # details: |
+    #   Création d'une simulation visant à localiser les hélicoptères en temps réel à l'aide de l'API Google Maps.
 
 skills:
     title: Compétences techniques
@@ -180,8 +268,11 @@ skills:
       - name: Oracle PL/SQL
         level: 70%
 
-      - name: Github, Jenkins, Phabricator
+      - name: Github, Phabricator
         level: 70%
+
+      - name: Docker, Jenkins
+        level: 65%
 
       - name: Méthode agile (SCRUM), Cycle en V
         level: 60%

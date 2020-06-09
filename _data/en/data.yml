@@ -22,16 +22,16 @@ sidebar:
     interestsTitle: Interests
     interests:
       - item: Guitar and Bass guitar (self learner)
-        link:
-
-      - item: Photography
-        link:
+        link: 
 
       - item: Fitness
         link:
 
       - item: Volunteering in an Archery club
         link: https://www.flechedor.lu/en/
+
+    interestPhotography: Photography
+
 
 # career-profile:
 #     title: Career Profile
@@ -118,32 +118,141 @@ experiences:
       details: |
         Integration of a signal processing module(Filters, FFT, ECG, EEG) in the software CAPTIV-L7000
 
-# projects:
-#     title: Technical Realisations
-#     intro: >
-#       You can list your side projects or open source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+projects:
+    title: Technical Realisations
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      
+    - title: "CSDR Settlement Fail Penalties Framework"
+      time: 2020
+      #link: ""
+      #tagline: C++, PL/SQL, XML
+      details: |
+        Implementing EU regulations and harmonisation of rules for the creation and operation of settlement penalties mechanisms.
+        - Revamped the Reference Data Provider (RDP) legacy code as a microservice architecture style as part of the Clearstream Cloud migration
+        - Integrated gRPC framework in the RDP
+        - Adapted the RDP to execute gRPC calls in multiple threads
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: "TAX Investments"
+      time: 2019
+      #link: ""
+      #tagline: C++, PL/SQL, XML
+      details: |
+        Implemented a solution to handle MT564/MT566 messages sent by Clearstream Banking Frankfurt following the implementation of the reform of German Investment Tax.
+    
+    - title: "REDEX"
+      time: 2018
+      #link: ""
+      #tagline: C++
+      details: |
+        Process developed on top of the OXI in-house framework. It registers to upstream systems (Account Master and Reference Data Factory) and notifies downstream systems when a rule changes.
+        - Overhauled and optimized in-memory cache storage of REDEX application
+        - Redesigned source code from C++98 to C++11 standard
 
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: "Custody Booking - Unsecured Credit over the Bridge"
+      time: 2018
+      #link: ""
+      #tagline: ++, PL/SQL, XML
+      details: |
+        With the adoption of the Regulatory Technical Standards on improving securities settlement in the European Union, the project "Unsecured Credit over the Bridge” brought improvements to the bridge between two ICSDs.
+        - Redesigned payments systems in Custody in order to comply with CSD regulation rules
+        - Implemented custody booking reconciliation process
 
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: "CodeList"
+      time: 2018
+      #link: ""
+      #tagline:
+      details: |
+        Conceptualized a proof of concept for migrating the web site <a href="https://codelist.clearstream.com/codelist/index.jsp" target="_blank" rel="nofollow">CodeList</a>  using Echo framework.
+
+
+    - title: "Dev-Ops Tool-chain of Custody applications"
+      time: 2017
+      #link: ""
+      #tagline: C++, PL/SQL, shell script, Groovy
+      details: |
+        Contribution to the Dev-Ops migration initiative on Custody application by taking the leadership on a new automatic test suite, especially on providing efficient tools to development to migrate from the legacy architecture to the new one.
+        - Engineered solutions and performed application testing (unit, integration and regression tests)
+        - Designed and programmed the continuous delivery and regression testing pipeline using Jenkins
+
+    - title: "AURORA"
+      time: 2016
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        AURORA reporting for Custody provides daily information about the security and cash movements that were generated for the CBF (Clearstrean Banking Frankfurt) entity. It is sent to the Deutsche Bundesbank for regulation purposes.
+        - Collected and extracted relevant information (corporate actions, financial instructions) from Custody data model 
+        - Assembled the AURORA reporting following a strict predefined formatting 
+
+
+    # - title: "Mod jeu vidéo"
+    #   time: 2016
+    #   #link: ""
+    #   #tagline: ++, Unreal script
+    #   details: |
+    #     Modification des événements en jeu (faible niveau de santé, soins, tir au pistolet) pour réagir de manière dynamique avec des appareils rétroéclairés. 
+
+
+    - title: "OneSecLend - Fails Lending Principal"
+      time: 2015
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        The project was focused on delivering fails-driven securities financing product and services. The solution ensure all positions and instructions are consistently provided to the third-party financial software 4Sight. 
+        - Upgraded "Position Manager Booking" engine in order to maintain positions in real time and ensure consistency between positions and instructions
+        - Programmed proofing solution in order to keep consistency across systems 
+   
+    - title: "Malmo"
+      time: 2014
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        Technical project consisting in removing dependencies between ReportServer applications and RealTime Settlement reference data. 
+        - Optimized financial instrument library to remove settlement system dependencies
+        - Refactored the data model to support central reference data model structure (REDEX)
+
+    - title: "Final year student project"
+      time: 2013
+      #link: ""
+      #tagline: C++
+      details: |
+        Researched of a real-time Human body recognition solution using computer vision library OpenCV.
+
+    - title: "Student project"
+      time: 2012
+      #link: ""
+      #tagline: C++
+      details: |
+        Implemented a supervision software using Lego Mindstorm, Qt framework and HTTPS protocol for secured communications.
+
+    - title: "Eurobot French National Cup 2012"
+      time: 2012
+      #link: ""
+      #tagline: Chef de projet logiciel et développeur C++
+      details: |
+        As part of a 6 members team, an autonomous robot was built from scratch. In order to compete within the championship, various technologies were engineered in electronic, mechanic and software.
+        - Developed a vision system to locate and estimate the opponent robot's position using an enlightened beacon and the OpenCV library
+        - Optimized core routines and the vision system for the embedded FOX G20 board
+
+    # - title: "Projet étudiant"
+    # time: 
+    # #link: ""
+    # #tagline: PHP, jQuery
+    # details: |
+    #  Implémentation d'une application mobile et web pour la gestion de restaurants.
+
+    # time: 2011
+    # - title: "Simulation de gestion d'une flotte d'hélicoptères"
+    # #link: ""
+    # #tagline: 
+    # details: |
+    # C, Java
+    # details: |
+    #   Création d'une simulation visant à localiser les hélicoptères en temps réel à l'aide de l'API Google Maps.
 
 # publications:
 #     title: Publications
@@ -180,8 +289,11 @@ skills:
       - name: Oracle PL/SQL
         level: 70%
 
-      - name: Github, Jenkins, Phabricator
+      - name: Github, Phabricator
         level: 70%
+
+      - name: Docker, Jenkins
+        level: 65%
 
       - name: Agile development (SCRUM), V-Model
         level: 60%
