@@ -181,7 +181,7 @@ p {
         margin-bottom: 2px;
     }
     .job-title, .degree {
-        color: $text-color;
+        color: darken($theme-color, 15%);
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
@@ -200,17 +200,17 @@ p {
 
     .project-title {
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 500;
         margin-top: 0;
         margin-bottom: 5px;
-	color: darken($theme-color, 15%);
+	    color: darken($theme-color, 15%);
     }
     .projects-section {
         .intro {
             margin-bottom: 30px;
         }
         .item {
-            margin-bottom: 15px;
+            margin-bottom: 30px;
         }
     }
 
