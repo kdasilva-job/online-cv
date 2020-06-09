@@ -6,19 +6,24 @@
 * This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). 
 * Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
 
-* [Check this repository](https://github.com/sharu725/online-cv/fork) for more info
+* [Check this repository](https://github.com/sharu725/online-cv/fork) for more info.
 
 
 ## Credits
 
-Thanks to [Sharath Kumar](https://github.com/sharu725/online-cv/) for this Jekyll theme.
+Thanks to :
+* [Sharath Kumar](https://github.com/sharu725/online-cv/) for this Jekyll theme.
 
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+* [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+
+* [Sylvain Durand](https://www.sylvaindurand.org/making-jekyll-multilingual/) for his article.
+
+* [Jekyllcodex](https://jekyllcodex.org/without-plugin/lightbox/) website for the pictures slideshow examples.
+
+* [freepngimg](https://freepngimg.com/) for the favicon.
+
 
 Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
-
-
-https://www.sylvaindurand.org/making-jekyll-multilingual/
 
 
 ## License

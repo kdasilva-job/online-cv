@@ -6,7 +6,7 @@ lang: en
 
 {% include career-profile.html %}
 
-{% unless site.data.[page.lang].data.sidebar.education %}
+{% unless site.data[page.lang].data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
 
@@ -17,8 +17,3 @@ lang: en
 {% include publications.html %}
 
 {% include skills.html %}
-
-<!-- <p> -->
-  <a href="{{ site.baseurl }}/uploads/album/01.jpg" class="gray">image</a>
-  <a href="{{ site.baseurl }}/uploads/album/02.jpg" class="gray">links</a>
-<!-- </p> -->
