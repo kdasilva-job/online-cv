@@ -23,13 +23,17 @@ sidebar:
     interests:
       - item: Guitare et Basse (autodidacte)
         link:
+        font: fa-guitar
 
       - item: Fitness
         link:
+        font: fa-running
 
       - item: Bénévole dans le club "Flèche d'Or Luxembourg"
         link: https://www.flechedor.lu/fr/
+        font: fa-bullseye
 
+    # font-awesome is defined in interests.html
     interestPhotography: Photographie
 
 # career-profile:
@@ -42,39 +46,30 @@ sidebar:
 #       Donec quam felis, ultricies nec, pellentesque eu.
 #       Second paragraph if required.
 education:
-    - degree: Chef de projet en Informatique et Robotique
-      university: Institut Méditerranéen d'Étude et de Recherche en Informatique et Robotique
-      time: 2010 - 2013
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: Département Informatique
-      university: Université des sciences appliquée HAMK
-      time: 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: Licence L3 Mathématiques et Informatique
-      university: Université de Perpignan Via Domitia
-      time: 2010 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    title: Formations
+
+    graduation:
+      - degree: Chef de projet en Informatique et Robotique
+        university: Institut Méditerranéen d'Étude et de Recherche en Informatique et Robotique
+        time: 2010 - 2013
+        details: |
+
+      - degree: Département Informatique
+        university: Université des sciences appliquée HAMK
+        time: 2012
+        details: |
+
+      - degree: Licence L3 Mathématiques et Informatique
+        university: Université de Perpignan Via Domitia
+        time: 2010 - 2011
+        details: |
+
+      - degree: Diplômes Universitaires de Technologie Informatique
+        university: Université Nancy 2
+        time: 2007 - 2009
+        details: |
+
+
 experiences:
     - role: Ingénieur logiciel C++
       time: Juillet 2014 - Aujourd'hui
@@ -274,7 +269,7 @@ skills:
       - name: Docker, Jenkins
         level: 65%
 
-      - name: Méthode agile (SCRUM), Cycle en V
+      - name: Méthode agile, Cycle en V
         level: 60%
 
 footer: >

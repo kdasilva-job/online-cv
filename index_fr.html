@@ -4,11 +4,13 @@ lang: fr
 permalink: fr
 ---
 
-{% include skills.html %}
+{% unless site.data.common.sidebar.skills %}
+  {% include skills.html %}
+{% endunless %}
 
 {% include career-profile.html %}
 
-{% unless site.data[page.lang].data.sidebar.education %}
+{% unless site.data.common.sidebar.education %}
   {% include education.html %}
 {% endunless %}
 

@@ -1,13 +1,14 @@
-{% assign education = site.data.common.education %} <!-- defined in common.yml -->
-{% if education %}
-  {% if site.data.[page.lang].data.sidebar.education %}
+{% assign sidebar = site.data.common.sidebar %}
+{% assign education = site.data.[page.lang].data.education %}
+
+{% if sidebar.education %} <!-- defined in common.yml -->
   <div class="education-container container-block">
 
     <h2 class="container-block-title">
-      Education
+      {{ education.title }}
     </h2>
 
-    {% for graduation in education %}
+    {% for graduation in education.graduation %}
     <div class="item">
       <h4 class="degree">{{ graduation.degree }}</h4>
       <h5 class="meta">{{ graduation.university }}</h5>
@@ -16,7 +17,7 @@
     {% endfor %}
 
   </div><!--//education-container-->
-  {% else %}
+{% else %}
   <section class="section educations-section">
 
     <h2 class="section-title">
@@ -24,10 +25,10 @@
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
       </span>
-      Education
+      {{ education.title }}
     </h2>
 
-    {% for graduation in education %}
+    {% for graduation in education.graduation %}
     <div class="item">
 
       <div class="meta">
@@ -50,5 +51,5 @@
     {% endfor %}
 
   </section><!--//section-->
-  {% endif %}
 {% endif %}
+
