@@ -23,13 +23,17 @@ sidebar:
     interests:
       - item: Guitare et Basse (autodidacte)
         link:
+        font: fa-guitar
 
       - item: Fitness
         link:
+        font: fa-running
 
       - item: Bénévole dans le club "Flèche d'Or Luxembourg"
         link: https://www.flechedor.lu/fr/
+        font: fa-bullseye
 
+    # font-awesome is defined in interests.html
     interestPhotography: Photographie
 
 # career-profile:

@@ -23,13 +23,17 @@ sidebar:
     interests:
       - item: Guitar and Bass guitar (self learner)
         link: 
+        font: fa-guitar
 
       - item: Fitness
         link:
+        font: fa-running
 
       - item: Volunteering in an Archery club
         link: https://www.flechedor.lu/en/
+        font: fa-bullseye
 
+    # font-awesome is defined in interests.html
     interestPhotography: Photography
 
 

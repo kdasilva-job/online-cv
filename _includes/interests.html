@@ -17,7 +17,7 @@
         <p class="slideshow">  
           {% for pix in slideshow %}
             {% if forloop.first %}
-              <a href="{{ site.baseurl }}/uploads/album/{{ pix.image }}" title="{{ interestPhotography }}">{{ interestPhotography }}</a>
+              <a href="{{ site.baseurl }}/uploads/album/{{ pix.image }}" title="{{ interestPhotography }}"><i class="fa fa-camera" aria-hidden="true"></i> {{ interestPhotography }}</a>
             {% else %}
               <a href="{{ site.baseurl }}/uploads/album/{{ pix.image }}"></a>
             {% endif %}
@@ -29,9 +29,21 @@
     {% for interest in interests %}
 
       {% if interest.link %}
-        <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+        <li>
+          <a href="{{ interest.link }}">
+            {% if interest.font %}
+              <i class="fa {{ interest.font }}" aria-hidden="true"></i>
+            {% endif %}
+            {{ interest.item }}
+          </a>
+         </li>
       {% else %}
-        <li>{{ interest.item }}</li>
+        <li>
+          {% if interest.font %}
+              <i class="fa {{ interest.font }}" aria-hidden="true"></i>
+          {% endif %}
+          {{ interest.item }}
+        </li>
       {% endif %}
 
     {% endfor %}   
