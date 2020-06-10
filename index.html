@@ -3,7 +3,10 @@ layout: default
 lang: en
 ---
 
-{% include skills.html %}
+
+{% unless site.data.common.sidebar.skills %}
+  {% include skills.html %}
+{% endunless %}
 
 {% include career-profile.html %}
 
