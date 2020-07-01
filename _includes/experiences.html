@@ -22,14 +22,20 @@
       <div class="company">
         {% if experience.link %}
           <a class="dont-print" href="{{ experience.link }}" target="_blank">
+            {% if site.data.common.sidebar.company_logo %}
+              <img class="logo" src="{{ site.baseurl }}/assets/images/company-logo/{{ experience.logo }}" alt="{{ experience.company }}" /> &nbsp;
+            {% endif %}
             {{ experience.company }}
           </a>
         {% else %}
+          {% if site.data.common.sidebar.company_logo %}
+            <img class="logo" src="{{ site.baseurl }}/assets/images/company-logo/{{ experience.logo }}" alt="{{ experience.company }}" /> &nbsp;
+          {% endif %}
           {{ experience.company }}
         {% endif %}
         {% if experience.city %}
           <span>
-            <i class="fas fa-map-pin"></i>&nbsp;
+            <i class="fas fa-map-pin"></i>
             <a class="dont-print" href="https://www.google.com/maps/place/{{ experience.city }}" target="_blank">
               {{ experience.city }}
             </a>

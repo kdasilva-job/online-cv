@@ -21,6 +21,10 @@ sidebar:
 
     interestsTitle: Loisirs
     interests:
+      - item: Globe-Trotter
+        link: 
+        font: fa-globe-europe
+        
       - item: Guitare et Basse (autodidacte)
         link:
         font: fa-guitar
@@ -76,6 +80,7 @@ experiences:
       company: Clearstream (Groupe Deutsche Börse AG)
       city : Luxembourg
       link: https://www.clearstream.com/clearstream-en/
+      logo: clearstream.png
       details: |
         Gestion du cycle de vie d'une application, au sein d'une équipe internationale dédiée à la conception, au développement, à l'amélioration et au support d'applications volumineuses afin de fournir des services financiers de classe mondiale :
           - Implémentation d'applications (C++11, Oracle PL/SQL, perl, shell script, groovy, RedHat Enterprise Linux)
@@ -86,6 +91,7 @@ experiences:
     - role: Ingénieur logiciel junior C++
       time: Octobre 2013 - Juillet 2014
       company: Clearstream (Groupe Deutsche Börse AG)
+      logo: clearstream.png
       city : Luxembourg
       link: https://www.clearstream.com/clearstream-en/
       details: |
@@ -95,6 +101,7 @@ experiences:
       company: Logos IT Services
       city : Luxembourg
       link: https://www.logos-its.com/
+      logo: clearstream.png
       details: |
         Implémentation d'un ERP incluant des outils de gestion des employés et d'analyse financière de l'entreprise
     - role: Développeur C#
@@ -102,6 +109,7 @@ experiences:
       company: Mitron Oy 
       city : Riihimäki (Finland)
       link: https://www.railway-technology.com/contractors/operation/mitron/
+      logo: mitronoy.png
       details: |
         Recherche et développement d'un système d'affichage autarcique pour les gares finlandaises
     - role: Stagiaire développeur C# 
@@ -109,6 +117,7 @@ experiences:
       company: T.E.A. Technologie, Ergonomie et Applications
       city: Vandoeuvre-lès-Nancy (France)
       link: http://teaergo.com/wp/
+      logo: tea.png
       details: |
         Intégration d'un module de traitements de signaux (Filtres, FFT, ECG, EEG) dans le logiciel CAPTIV-L7000
 

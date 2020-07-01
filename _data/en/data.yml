@@ -21,6 +21,10 @@ sidebar:
 
     interestsTitle: Interests
     interests:
+      - item: Globe-Trotter
+        link: 
+        font: fa-globe-europe
+
       - item: Guitar and Bass guitar (self learner)
         link: 
         font: fa-guitar
@@ -45,7 +49,7 @@ sidebar:
 #       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
 #       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 #       Donec quam felis, ultricies nec, pellentesque eu.
-#       Second paragraph if required.
+#       Second paragraph if required. 
 education:
     title: Education
 
@@ -76,10 +80,11 @@ experiences:
       company: Clearstream (Deutsche Börse Group) 
       city : Luxembourg
       link: https://www.clearstream.com/clearstream-en/
+      logo: clearstream.png
       details: |
         Application Lifecycle Management, as part of an international team dedicated to design, develop, extend, and support large applications to provide world class financial asset services:
           - Application implementation (C++11, Oracle PL/SQL, perl, shell script, groovy, RedHat Enterprise Linux)
-          - Implementation of an in- house testing framework (unit, integration and regression tests)
+          - Implementation of an in-house testing framework (unit, integration and regression tests)
           - Continuous Integration and Continuous Delivery pipelines design and implementation (Jenkins declarative pipelines, Docker)
           - Handle support of applications to provide world class financial asset services for services provided to business teams (JIRA)
           - Analysing and supporting production softwares issues
@@ -88,6 +93,7 @@ experiences:
       company: Clearstream (Deutsche Börse Group)
       city : Luxembourg
       link: https://www.clearstream.com/clearstream-en/
+      logo: clearstream.png
       details: |
         Development and tests support for applications of the reporting platform ReportServer
     - role: Trainee Java developer
@@ -95,6 +101,7 @@ experiences:
       company: Logos IT Services
       city : Luxembourg
       link: https://www.logos-its.com/
+      logo: logos.png
       details: |
         Implementation of an ERP including employee management and company financial analysis tools
     - role: C# developer
@@ -102,6 +109,7 @@ experiences:
       company: Mitron Oy 
       city : Riihimäki (Finland)
       link: https://www.railway-technology.com/contractors/operation/mitron/
+      logo: mitronoy.png
       details: |
         Research and development of an autarchic display system for Finnish Railway stations
     - role: Trainee C# developer
@@ -109,6 +117,7 @@ experiences:
       company: T.E.A. Technologie, Ergonomie et Applications
       city: Vandoeuvre-lès-Nancy (France)
       link: http://teaergo.com/wp/
+      logo: tea.png
       details: |
         Integration of a signal processing module(Filters, FFT, ECG, EEG) in the software CAPTIV-L7000
 
