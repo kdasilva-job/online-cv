@@ -1,0 +1,24 @@
+{% assign skills = site.data.[page.lang].data.skills %}
+{% if skills %}
+
+<div class="skills-section container-block">
+    <!-- Adapat the skills title for the sidebar -->
+    <h2 class="container-block-title">
+        {{ skills.title }}
+    </h2>
+
+    <div class="skillset">
+        {% for skill in skills.toolset %}
+        <div class="item">
+            <!-- <h3 class="level-title">{{ skill.name }}</h3> -->
+            <p class="level-title">{{ skill.name }}</p>
+            <div class="level-bar">
+                <div class="level-bar-inner" title="{{ skill.level }}" data-level="{{ skill.level }}"></div>
+            </div><!--//level-bar-->
+        </div><!--//item-->
+        {% endfor %}
+    </div>
+
+</div>
+
+{% endif %}

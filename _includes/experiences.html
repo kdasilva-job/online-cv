@@ -1,4 +1,4 @@
-{% assign experiences = site.data.data.experiences %}
+{% assign experiences = site.data.[page.lang].data.experiences %}
 {% if experiences %}
 <section class="section experiences-section">
   <h2 class="section-title">
@@ -19,7 +19,30 @@
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+      <div class="company">
+        {% if experience.link %}
+          <a class="dont-print" href="{{ experience.link }}" target="_blank">
+            {% if site.data.common.sidebar.company_logo %}
+              <img class="logo" src="{{ site.baseurl }}/assets/images/company-logo/{{ experience.logo }}" alt="{{ experience.company }}" /> &nbsp;
+            {% endif %}
+            {{ experience.company }}
+          </a>
+        {% else %}
+          {% if site.data.common.sidebar.company_logo %}
+            <img class="logo" src="{{ site.baseurl }}/assets/images/company-logo/{{ experience.logo }}" alt="{{ experience.company }}" /> &nbsp;
+          {% endif %}
+          {{ experience.company }}
+        {% endif %}
+        {% if experience.city %}
+          <span>
+            <i class="fas fa-map-pin"></i>
+            <a class="dont-print" href="https://www.google.com/maps/place/{{ experience.city }}" target="_blank">
+              {{ experience.city }}
+            </a>
+          </span>
+          
+        {% endif %}
+    </div>
 
     </div><!--//meta-->
 

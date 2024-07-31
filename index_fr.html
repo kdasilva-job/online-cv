@@ -1,0 +1,24 @@
+---
+layout: default
+lang: fr
+permalink: fr
+---
+
+{% unless site.data.common.sidebar.skills %}
+  {% include skills.html %}
+{% endunless %}
+
+{% include career-profile.html %}
+
+{% unless site.data.common.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
+
+{% include experiences.html %}
+
+{% include projects.html %}
+
+{% include publications.html %}
+
+
+

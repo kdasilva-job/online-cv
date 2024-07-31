@@ -1,0 +1,285 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+language: Français
+also_available: Disponible en 
+title: Mon CV # Site title
+description: Mon CV # Site description
+
+sidebar:
+    tagline: Ingénieur logiciel C++
+
+    languagesTitle: Langues
+    languages:
+      - idiom: Français
+        level: Langue maternelle
+        image: french.jpg
+
+      - idiom: Anglais
+        level: Courant
+        image: english.jpg
+
+    interestsTitle: Loisirs
+    interests:
+      - item: Globe-Trotter
+        link: 
+        font: fa-globe-europe
+        
+      - item: Guitare et Basse (autodidacte)
+        link:
+        font: fa-guitar
+
+      - item: Fitness
+        link:
+        font: fa-running
+
+      - item: Bénévole dans le club "Flèche d'Or Luxembourg"
+        link: https://www.flechedor.lu/fr/
+        font: fa-bullseye
+
+    # font-awesome is defined in interests.html
+    interestPhotography: Photographie
+
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
+#       Second paragraph if required.
+education:
+    title: Formations
+
+    graduation:
+      - degree: Chef de projet en Informatique et Robotique
+        university: Institut Méditerranéen d'Étude et de Recherche en Informatique et Robotique
+        time: 2010 - 2013
+        details: |
+
+      - degree: Département Informatique
+        university: Université des sciences appliquée HAMK
+        time: 2012
+        details: |
+
+      - degree: Licence L3 Mathématiques et Informatique
+        university: Université de Perpignan Via Domitia
+        time: 2010 - 2011
+        details: |
+
+      - degree: Diplômes Universitaires de Technologie Informatique
+        university: Université Nancy 2
+        time: 2007 - 2009
+        details: |
+
+
+experiences:
+    - role: Ingénieur logiciel C++
+      time: Juillet 2014 - Aujourd'hui
+      company: Clearstream (Groupe Deutsche Börse AG)
+      city : Luxembourg
+      link: https://www.clearstream.com/clearstream-en/
+      logo: clearstream.png
+      details: |
+        Gestion du cycle de vie d'une application, au sein d'une équipe internationale dédiée à la conception, au développement, à l'amélioration et au support d'applications volumineuses afin de fournir des services financiers de classe mondiale :
+          - Implémentation d'applications (C++11, Oracle PL/SQL, perl, shell script, groovy, RedHat Enterprise Linux)
+          - Mise en place d'un framework de tests interne (tests unitaires, d'intégration et de régression)
+          - Conception et mise en oeuvre de pipelines d'intégrations et de livraisons continue (pipelines déclaratifs Jenkins, Docker)
+          - Création d'applications pour fournir des outils de classe mondiale aux équipes commerciales
+          - Analyse et support des problèmes liés aux logiciels de production (Jira)
+    - role: Ingénieur logiciel junior C++
+      time: Octobre 2013 - Juillet 2014
+      company: Clearstream (Groupe Deutsche Börse AG)
+      logo: clearstream.png
+      city : Luxembourg
+      link: https://www.clearstream.com/clearstream-en/
+      details: |
+        Développement et support des applications de la plate-forme de reporting ReportServer
+    - role: Stagiaire développeur Java
+      time: Avril 2013 - Octobre 2013
+      company: Logos IT Services
+      city : Luxembourg
+      link: https://www.logos-its.com/
+      logo: clearstream.png
+      details: |
+        Implémentation d'un ERP incluant des outils de gestion des employés et d'analyse financière de l'entreprise
+    - role: Développeur C#
+      time: Août 2012 - Decembre 2012
+      company: Mitron Oy 
+      city : Riihimäki (Finland)
+      link: https://www.railway-technology.com/contractors/operation/mitron/
+      logo: mitronoy.png
+      details: |
+        Recherche et développement d'un système d'affichage autarcique pour les gares finlandaises
+    - role: Stagiaire développeur C# 
+      time: Mai 2012 - Juillet 2012
+      company: T.E.A. Technologie, Ergonomie et Applications
+      city: Vandoeuvre-lès-Nancy (France)
+      link: http://teaergo.com/wp/
+      logo: tea.png
+      details: |
+        Intégration d'un module de traitements de signaux (Filtres, FFT, ECG, EEG) dans le logiciel CAPTIV-L7000
+
+projects:
+    title: Réalisations techniques
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      
+    - title: "CSDR Settlement Fail Penalties Framework"
+      time: 2020
+      #link: ""
+      #tagline: C++, PL/SQL, XML
+      details: |
+        Implémentation et harmonisation des règles de l'UE pour les mécanismes de pénalités de règlement.
+        - Refonte du Reference Data Provider (RDP) en architecture microservice dans la cadre de la migration vers le Cloud
+        - Integration du framework gRPC dans le RDP
+        - Adaptation du RDP pour executer les appels gRPC dans plusieurs threads
+
+    - title: "TAX Investments"
+      time: 2019
+      #link: ""
+      #tagline: C++, PL/SQL, XML
+      details: |
+        Réalisation d'une solution pour traiter les messages MT564 / MT566 envoyés par Clearstream Banking Frankfurt, suite à la réforme de la taxe allemande sur l'investissement.
+
+    - title: "REDEX"
+      time: 2018
+      #link: ""
+      #tagline: C++
+      details: |
+        Application développée avec le framework d'extraction interne OXI. Elle reçoit et traite les publications envoyées par le système de référence de données de Clearstream.
+        - Amélioration et optimisation du stockage en mémoire cache de l'application REDEX
+        - Migration du code source du standard C++98 vers C++11
+
+    - title: "Custody Booking - Unsecured Credit over the Bridge"
+      time: 2018
+      #link: ""
+      #tagline: ++, PL/SQL, XML
+      details: |
+        Avec l'adoption de nouvelles réglementations liées aux opérations sur des titres dans l'Union Européenne, le projet "Unsecured Credit over the Bridge” a permis d'améliorer la communication entre deux dépositaires centraux de titres.
+        - Changement du système de paiements Custody afin de se conformer aux nouvelles règles de réglementations
+        - Implémentation d'un processus de réconciliation pour les paiements Custody
+
+
+    - title: "CodeList"
+      time: 2018
+      #link: ""
+      #tagline:
+      details: |
+        Conception d'une preuve de concept pour la migration du site Web <a href="https://codelist.clearstream.com/codelist/index.jsp" target="_blank" rel="nofollow">CodeList</a> à l'aide du framework Echo.
+
+
+    - title: "Chaîne d'outils Devops pour les applications Custody"
+      time: 2017
+      #link: ""
+      #tagline: C++, PL/SQL, shell script, Groovy
+      details: |
+        Contribution à la migration des outils Devops des applications Custody en prenant le leadership des tests automatiques, en particulier pour fournir des outils efficaces au développement afin de migrer de l'ancienne architecture vers la nouvelle.
+        - Réalisation d'une solution pour les tests d'applications (tests unitaires, d'intégration et de régression)
+        - Conception et programmation des pipelines de tests de régression et de livraison continue à l'aide de Jenkins
+
+
+    - title: "AURORA"
+      time: 2016
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        Le reporting AURORA de Custody fournit des informations quotidiennes sur les mouvements de titres et de trésorerie de Clearstrean Banking Frankfurt. Il est envoyé à la Deutsche Bundesbank à des fins de régulation.
+        - Extraction des informations pertinentes (opérations sur titres, instructions financières) à partir du modèle de données Custody
+        - Génération du rapport AURORA en suivant un formatage prédéfini strict
+
+    # - title: "Mod jeu vidéo"
+    #   time: 2016
+    #   #link: ""
+    #   #tagline: ++, Unreal script
+    #   details: |
+    #     Modification des événements en jeu (faible niveau de santé, soins, tir au pistolet) pour réagir de manière dynamique avec des appareils rétroéclairés. 
+
+
+    - title: "OneSecLend - Fails Lending Principal"
+      time: 2015
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        Le projet visait à fournir des produits et des services axés sur les défaillances de paiements. 
+        La solution garantit que toutes les positions et instructions sont systématiquement transmisent au logiciel tiers "4Sight Financial Software".
+        - Mise à jour du moteur "Position Manager Booking" afin de maintenir les positions en temps réel et d'assurer la cohérence entre les positions et les instructions
+        - Programmation d'une solution de proofing pour garantir la cohérence des positions entre les systèmes
+
+    - title: "Malmo"
+      time: 2014
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        Projet technique consistant à supprimer les dépendances entre les applications RS et 
+        RealTime Settlement (RTS). 
+        - Modification de la bibliothèque de gestion des instruments financiers pour supprimer les dépendances avec le système RTS
+        - Refactorisation du modèle de données pour prendre en charge la nouvelle structure  de données de référence (REDEX)
+
+    - title: "Projet de fin d'études"
+      time: 2013
+      #link: ""
+      #tagline: C++
+      details: |
+        Recherche et développement d'une solution de reconnaissance du corps humain en temps réel, à l'aide de la bibliothèque de traitement d'images OpenCV.
+
+    - title: "Projet étudiant"
+      time: 2012
+      #link: ""
+      #tagline: C++
+      details: |
+        Implémentation d'un logiciel de supervision d'un robot Lego Mindstorm utilisant le framework Qt et le protocole HTTPS pour des communications sécurisées.
+
+    - title: "Coupe de France de Robotique \"Eurobot 2012\""
+      time: 2012
+      #link: ""
+      #tagline: Chef de projet logiciel et développeur C++
+      details: |
+        Dans le cadre d'une équipe de 6 personnes, un robot autonome a été construit à partir de zéro. Pour concourir dans le championnat, plusieurs technologies ont été conçues dans les domaines de l’électronique, de la mécanique et des logiciels.
+        - Développement d'un système de vision pour localiser et estimer la position du robot adverse à l'aide d'une balise éclairée et de la bibliothèque OpenCV
+        - Optimisation du code et du système de vision pour la carte embarquée FOX Board G20
+
+    # - title: "Projet étudiant"
+    # time: 
+    # #link: ""
+    # #tagline: PHP, jQuery
+    # details: |
+    #  Implémentation d'une application mobile et web pour la gestion de restaurants.
+
+    # time: 2011
+    # - title: "Simulation de gestion d'une flotte d'hélicoptères"
+    # #link: ""
+    # #tagline: 
+    # details: |
+    # C, Java
+    # details: |
+    #   Création d'une simulation visant à localiser les hélicoptères en temps réel à l'aide de l'API Google Maps.
+
+skills:
+    title: Compétences techniques
+
+    toolset:
+      - name: C++11
+        level: 90%
+
+      - name: Git, SVN, Clearcase
+        level: 85%
+
+      - name: Oracle PL/SQL
+        level: 70%
+
+      - name: Github, Phabricator
+        level: 70%
+
+      - name: Docker, Jenkins
+        level: 65%
+
+      - name: Méthode agile, Cycle en V
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

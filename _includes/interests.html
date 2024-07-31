@@ -1,21 +1,56 @@
-{% assign interests = site.data.data.sidebar.interests %}
+{% assign interests = site.data.[page.lang].data.sidebar.interests %}
+{% assign interestsTitle = site.data.[page.lang].data.sidebar.interestsTitle %}
+{% assign interestPhotography = site.data.[page.lang].data.sidebar.interestPhotography %}
+{% assign slideshow = site.data.common.slideshow %}
+
 {% if interests %}
 <div class="interests-container container-block">
 
   <h2 class="container-block-title">
-    Interests
+    {{ interestsTitle }}
   </h2>
 
   <ul class="list-unstyled interests-list">
+
+    {% if interestPhotography %}
+      <li>
+        <p class="slideshow">  
+          {% for pix in slideshow %}
+            {% if forloop.first %}
+                <i class="fa fa-camera" aria-hidden="true" style="font-size: 17px;"></i> {{ interestPhotography }}
+                &nbsp;
+              <a href="{{ site.baseurl }}/uploads/album/{{ pix.image }}" title="{{ interestPhotography }}">
+                <i class="fas fa-share-square" aria-hidden="true" style="font-size: 12px;"></i>
+              </a>
+            {% else %}
+              <a href="{{ site.baseurl }}/uploads/album/{{ pix.image }}"></a>
+            {% endif %}
+          {% endfor %}
+        </p>
+      </li>
+    {% endif %}
+    
     {% for interest in interests %}
 
       {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+        <li>
+          <a href="{{ interest.link }}">
+            {% if interest.font %}
+              <i class="fa {{ interest.font }}" aria-hidden="true" style="font-size: 17px;"></i>
+            {% endif %}
+            {{ interest.item }}
+          </a>
+         </li>
       {% else %}
-      <li>{{ interest.item }}</li>
+        <li>
+          {% if interest.font %}
+              <i class="fa {{ interest.font }}" aria-hidden="true" style="font-size: 17px;"></i>
+          {% endif %}
+          {{ interest.item }}
+        </li>
       {% endif %}
 
-    {% endfor %}
+    {% endfor %}   
   </ul>
 
 </div><!--//interests-->

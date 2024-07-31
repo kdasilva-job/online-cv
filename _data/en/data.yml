@@ -1,0 +1,305 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+language: English
+also_available: Also Available in 
+title: My Resume  # Site title
+description: My resume # Site description
+
+sidebar:
+    tagline: C++ software engineer
+
+    languagesTitle: Languages
+    languages:
+      - idiom: French
+        level: Native
+        image: french.jpg
+
+      - idiom: English
+        level: Fluent
+        image: english.jpg
+
+    interestsTitle: Interests
+    interests:
+      - item: Globe-Trotter
+        link: 
+        font: fa-globe-europe
+
+      - item: Guitar and Bass guitar (self learner)
+        link: 
+        font: fa-guitar
+
+      - item: Fitness
+        link:
+        font: fa-running
+
+      - item: Volunteering in an Archery club
+        link: https://www.flechedor.lu/en/
+        font: fa-bullseye
+
+    # font-awesome is defined in interests.html
+    interestPhotography: Photography
+
+
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
+#       Second paragraph if required. 
+education:
+    title: Education
+
+    graduation:
+      - degree: Project manager in Computer Sciences and Robotics
+        university: Mediterranean Institute in Robotics and Computing
+        time: 2010 - 2013
+        details: |
+
+      - degree: IT Department
+        university: HAMK University of Applied Sciences
+        time: 2012
+        details: |
+
+      - degree: 3 year university degree in Mathematics and Computer Sciences
+        university: University of Perpignan Via Domitia
+        time: 2010 - 2011
+        details: |
+
+      - degree: 2 year technical degree in Computer Sciences
+        university: University Nancy 2
+        time: 2007 - 2009
+        details: |
+
+experiences:
+    - role: C++ software engineer
+      time: Jul 2014 - Present
+      company: Clearstream (Deutsche Börse Group) 
+      city : Luxembourg
+      link: https://www.clearstream.com/clearstream-en/
+      logo: clearstream.png
+      details: |
+        Application Lifecycle Management, as part of an international team dedicated to design, develop, extend, and support large applications to provide world class financial asset services:
+          - Application implementation (C++11, Oracle PL/SQL, perl, shell script, groovy, RedHat Enterprise Linux)
+          - Implementation of an in-house testing framework (unit, integration and regression tests)
+          - Continuous Integration and Continuous Delivery pipelines design and implementation (Jenkins declarative pipelines, Docker)
+          - Handle support of applications to provide world class financial asset services for services provided to business teams (JIRA)
+          - Analysing and supporting production softwares issues
+    - role: Junior C++ software engineer
+      time: Oct 2013 - Jul 2014
+      company: Clearstream (Deutsche Börse Group)
+      city : Luxembourg
+      link: https://www.clearstream.com/clearstream-en/
+      logo: clearstream.png
+      details: |
+        Development and tests support for applications of the reporting platform ReportServer
+    - role: Trainee Java developer
+      time: Apr 2013 - Oct 2013
+      company: Logos IT Services
+      city : Luxembourg
+      link: https://www.logos-its.com/
+      logo: logos.png
+      details: |
+        Implementation of an ERP including employee management and company financial analysis tools
+    - role: C# developer
+      time: Aug 2012 - Dec 2012
+      company: Mitron Oy 
+      city : Riihimäki (Finland)
+      link: https://www.railway-technology.com/contractors/operation/mitron/
+      logo: mitronoy.png
+      details: |
+        Research and development of an autarchic display system for Finnish Railway stations
+    - role: Trainee C# developer
+      time: May 2012 - Jul 2012
+      company: T.E.A. Technologie, Ergonomie et Applications
+      city: Vandoeuvre-lès-Nancy (France)
+      link: http://teaergo.com/wp/
+      logo: tea.png
+      details: |
+        Integration of a signal processing module(Filters, FFT, ECG, EEG) in the software CAPTIV-L7000
+
+projects:
+    title: Technical Realisations
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      
+    - title: "CSDR Settlement Fail Penalties Framework"
+      time: 2020
+      #link: ""
+      #tagline: C++, PL/SQL, XML
+      details: |
+        Implementing EU regulations and harmonisation of rules for the creation and operation of settlement penalties mechanisms.
+        - Revamped the Reference Data Provider (RDP) legacy code as a microservice architecture style as part of the Clearstream Cloud migration
+        - Integrated gRPC framework in the RDP
+        - Adapted the RDP to execute gRPC calls in multiple threads
+
+    - title: "TAX Investments"
+      time: 2019
+      #link: ""
+      #tagline: C++, PL/SQL, XML
+      details: |
+        Implemented a solution to handle MT564/MT566 messages sent by Clearstream Banking Frankfurt following the implementation of the reform of German Investment Tax.
+    
+    - title: "REDEX"
+      time: 2018
+      #link: ""
+      #tagline: C++
+      details: |
+        Process developed on top of the OXI in-house framework. It registers to upstream systems (Account Master and Reference Data Factory) and notifies downstream systems when a rule changes.
+        - Overhauled and optimized in-memory cache storage of REDEX application
+        - Redesigned source code from C++98 to C++11 standard
+
+    - title: "Custody Booking - Unsecured Credit over the Bridge"
+      time: 2018
+      #link: ""
+      #tagline: ++, PL/SQL, XML
+      details: |
+        With the adoption of the Regulatory Technical Standards on improving securities settlement in the European Union, the project "Unsecured Credit over the Bridge” brought improvements to the bridge between two ICSDs.
+        - Redesigned payments systems in Custody in order to comply with CSD regulation rules
+        - Implemented custody booking reconciliation process
+
+
+    - title: "CodeList"
+      time: 2018
+      #link: ""
+      #tagline:
+      details: |
+        Conceptualized a proof of concept for migrating the web site <a href="https://codelist.clearstream.com/codelist/index.jsp" target="_blank" rel="nofollow">CodeList</a>  using Echo framework.
+
+
+    - title: "Dev-Ops Tool-chain of Custody applications"
+      time: 2017
+      #link: ""
+      #tagline: C++, PL/SQL, shell script, Groovy
+      details: |
+        Contribution to the Dev-Ops migration initiative on Custody application by taking the leadership on a new automatic test suite, especially on providing efficient tools to development to migrate from the legacy architecture to the new one.
+        - Engineered solutions and performed application testing (unit, integration and regression tests)
+        - Designed and programmed the continuous delivery and regression testing pipeline using Jenkins
+
+    - title: "AURORA"
+      time: 2016
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        AURORA reporting for Custody provides daily information about the security and cash movements that were generated for the CBF (Clearstrean Banking Frankfurt) entity. It is sent to the Deutsche Bundesbank for regulation purposes.
+        - Collected and extracted relevant information (corporate actions, financial instructions) from Custody data model 
+        - Assembled the AURORA reporting following a strict predefined formatting 
+
+
+    # - title: "Mod jeu vidéo"
+    #   time: 2016
+    #   #link: ""
+    #   #tagline: ++, Unreal script
+    #   details: |
+    #     Modification des événements en jeu (faible niveau de santé, soins, tir au pistolet) pour réagir de manière dynamique avec des appareils rétroéclairés. 
+
+
+    - title: "OneSecLend - Fails Lending Principal"
+      time: 2015
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        The project was focused on delivering fails-driven securities financing product and services. The solution ensure all positions and instructions are consistently provided to the third-party financial software 4Sight. 
+        - Upgraded "Position Manager Booking" engine in order to maintain positions in real time and ensure consistency between positions and instructions
+        - Programmed proofing solution in order to keep consistency across systems 
+   
+    - title: "Malmo"
+      time: 2014
+      #link: ""
+      #tagline: C++, PL/SQL
+      details: |
+        Technical project consisting in removing dependencies between ReportServer applications and RealTime Settlement reference data. 
+        - Optimized financial instrument library to remove settlement system dependencies
+        - Refactored the data model to support central reference data model structure (REDEX)
+
+    - title: "Final year student project"
+      time: 2013
+      #link: ""
+      #tagline: C++
+      details: |
+        Researched of a real-time Human body recognition solution using computer vision library OpenCV.
+
+    - title: "Student project"
+      time: 2012
+      #link: ""
+      #tagline: C++
+      details: |
+        Implemented a supervision software using Lego Mindstorm, Qt framework and HTTPS protocol for secured communications.
+
+    - title: "Eurobot French National Cup 2012"
+      time: 2012
+      #link: ""
+      #tagline: Chef de projet logiciel et développeur C++
+      details: |
+        As part of a 6 members team, an autonomous robot was built from scratch. In order to compete within the championship, various technologies were engineered in electronic, mechanic and software.
+        - Developed a vision system to locate and estimate the opponent robot's position using an enlightened beacon and the OpenCV library
+        - Optimized core routines and the vision system for the embedded FOX G20 board
+
+    # - title: "Projet étudiant"
+    # time: 
+    # #link: ""
+    # #tagline: PHP, jQuery
+    # details: |
+    #  Implémentation d'une application mobile et web pour la gestion de restaurants.
+
+    # time: 2011
+    # - title: "Simulation de gestion d'une flotte d'hélicoptères"
+    # #link: ""
+    # #tagline: 
+    # details: |
+    # C, Java
+    # details: |
+    #   Création d'une simulation visant à localiser les hélicoptères en temps réel à l'aide de l'API Google Maps.
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: C++11
+        level: 90%
+
+      - name: Git, SVN, Clearcase
+        level: 85%
+
+      - name: Oracle PL/SQL
+        level: 70%
+
+      - name: Github, Phabricator
+        level: 70%
+
+      - name: Docker, Jenkins
+        level: 65%
+
+      - name: Agile development, V-Model
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

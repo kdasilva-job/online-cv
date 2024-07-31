@@ -1,0 +1,51 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+lang: en
+
+sidebar:
+    about: true # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: true # set to False if you want education in main section instead of in sidebar
+    skills: true # set to False if you want skills in main section instead of in sidebar
+    company_logo: true # set to False if you DON'T want companies logo to appear
+
+    # Profile information
+    firstname: Kevin
+    lastname: DA SILVA
+    avatar: 'profile_circle.png'  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: kdasilva-job.profile094@simplelogin.com
+    city: Montréal, QUEBEC
+    phone: 
+    website:  #do not add http://
+    linkedin: kdasilva-job
+    github: kdasilva-job
+    gitlab: kevin.dasilva
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
+slideshow:
+  - image: 01.jpg
+    title: Doors in the garden
+
+  - image: 02.jpg
+    title: Black cat
+  
+  - image: 03.jpg
+    title: Building noir
+
+  - image: 04.jpg
+    title: La Grande Roue de Montréal
+
+  - image: 05.jpg
+    title: Frozen boat (Montreal)
+
+  - image: 06.jpg
+    title: Railay Beach (Krabi)

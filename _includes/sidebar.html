@@ -1,18 +1,23 @@
-{% assign sidebar = site.data.data.sidebar %}
+{% assign sidebar = site.data.common.sidebar %}
+{% assign sidebarTagLine = site.data.[page.lang].data.sidebar.tagline %}
+
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
 
-    {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% if sidebar.firstname %}
+      <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
-    {% if sidebar.name %}
-    <h1 class="name">{{ sidebar.name }}</h1>
+    {% if sidebar.firstname %}
+      <h1 class="name">
+        <div class="firstname">{{ sidebar.firstname }}</div> 
+        <div class="lastname">{{ sidebar.lastname }}</div>
+      </h1>
     {% endif %}
 
-    {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% if sidebarTagLine %}
+      <h3 class="tagline">{{ sidebarTagLine }}</h3>
     {% endif %}
 
   </div><!--//profile-container-->
@@ -24,6 +29,11 @@
   {% endif %}
 
   {% include language.html %}
+
+  {% if sidebar.skills %}
+    {% include skills-sidebar.html %}
+  {% endif %}
+
   {% include interests.html %}
 
   {% if sidebar.about %}

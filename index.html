@@ -1,11 +1,16 @@
 ---
 layout: default
+lang: en
 ---
 
 
+{% unless site.data.common.sidebar.skills %}
+  {% include skills.html %}
+{% endunless %}
+
 {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
+{% unless site.data.common.sidebar.education %}
   {% include education.html %}
 {% endunless %}
 
@@ -14,5 +19,3 @@ layout: default
 {% include projects.html %}
 
 {% include publications.html %}
-
-{% include skills.html %}
