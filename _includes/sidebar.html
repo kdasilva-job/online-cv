@@ -5,15 +5,12 @@
 
   <div class="profile-container">
 
-    {% if sidebar.firstname %}
-      <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% if sidebar.avatar %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
-    {% if sidebar.firstname %}
-      <h1 class="name">
-        <div class="firstname">{{ sidebar.firstname }}</div> 
-        <div class="lastname">{{ sidebar.lastname }}</div>
-      </h1>
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
     {% if sidebarTagLine %}

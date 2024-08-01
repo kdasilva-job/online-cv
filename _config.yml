@@ -5,6 +5,7 @@ full_name: Kevin DA SILVA
 languages: [en, fr]
 
 # Site Settings
+title: My Resume
 url: 'https://kdasilva-job.github.io'
 baseurl: '/online-cv' #change it according to your repository name
 description: My resume
