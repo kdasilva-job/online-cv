@@ -52,7 +52,7 @@ sidebar:
 education:
     title: Formations
 
-    graduation:
+    info:
       - degree: Chef de projet en Informatique et Robotique
         university: Institut Méditerranéen d'Étude et de Recherche en Informatique et Robotique
         time: 2010 - 2013

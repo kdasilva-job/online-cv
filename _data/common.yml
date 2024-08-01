@@ -10,8 +10,7 @@ sidebar:
     company_logo: true # set to False if you DON'T want companies logo to appear
 
     # Profile information
-    firstname: Kevin
-    lastname: DA SILVA
+    name: Kevin DA SILVA
     avatar: 'profile_circle.png'  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
